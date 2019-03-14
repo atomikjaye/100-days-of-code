@@ -31,7 +31,7 @@
 
 **Things I've learned/need to research**: 
 
-> 1. Calculator are Hard!
+> 1. Calculators are Hard!
 > 2. I keep using regEx for everything(should read more on it)
 > 3. I need to learn more about Arrays and their methods
 > 4. I am tired of sorting arrays
