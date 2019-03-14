@@ -29,8 +29,17 @@
 
 **Thoughts:** I still wasn't able to get it, but I did go ahead and skim through an article and I would like to attempt it again tomorrow. Aside from working on the calculator, I did some work on codewars. I'm suprised at how little I know! I definitely struggled. The two problem sets I couldn't get were: [Regex validate PIN code](https://www.codewars.com/kata/55f8a9c06c018a0d6e000132) and [Your order, please](https://www.codewars.com/kata/your-order-please). I bookmarked them so I can come back to them. I also worked on some freecodecamp courses too. 
 
-**Link to work:** [insert link to github here]
+**Things I've learned/need to research**: 
 
+> 1. Calculator are Hard!
+> 2. I keep using regEx for everything(should read more on it)
+> 3. I need to learn more about Arrays and their methods
+> 4. I am tired of sorting arrays
+> 5. I am not stupid, just need to learn more.                                     
+> 6. I NEED GLASSES THAT DONT MAKE MY EYES HURT
 
+**Link to work:** [Calculator](001-calculator/)
+
+---
 
 > 100 Days of Code originally by [@ka11away](https://twitter.com/ka11away)
