@@ -42,4 +42,21 @@
 
 ---
 
+## Day 3: March 14, 2019
+
+**Today's Progress**: Worked on a Rock Paper Scissors Game (Console), [theOdinProject.com](https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors?ref=lnav)
+
+**Feeling**: 🤔😓 Confused, and a bit frustrated 
+
+**Thoughts:** I was not expecting this game to take a while. I think I may be rusty on the Javascript that I've learned 2 years ago and should probably do a bit of refreshing. I pride myself on how quickly I learn, but this is somehow hurting my ego lol. THIS WAS A SIMPLE GAME?!?! WHY YOU DO THIS JAYE? Anywho, this took longer than an hour lol. I still have other projects I want to do today, but this library internet is slow! 
+
+**Things I've learned/need to research**: 
+
+> 1. I tried using 'let' to declare a variable in the playRound function, but I realized that since 'let' had block scope I think it never got 'rewritten' when I redeclared it in the while loop, hence I was stuck in an infinite loop. That's my best guess, but I must look into that.
+> 2. LIBRARY WI-FI SUCKS
+
+**Link to work:** [Rock Paper Scissors (Console Only)](003-RockPaperScissors/)
+
+---
+
 > 100 Days of Code originally by [@ka11away](https://twitter.com/ka11away)

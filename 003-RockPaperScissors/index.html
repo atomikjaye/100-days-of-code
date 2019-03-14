@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>🚀-et📰✂️</title>
+    <script>
+
+        function getResponse(question){
+            let response = prompt(question);
+            return response.toLowerCase();
+        }
+        function computerChoice(){
+            let compChoices = ["rock", "paper", "scissors"]
+            let randomChoiceNum = Math.floor(Math.random() * 3);
+            return compChoices[randomChoiceNum]
+        }
+        function playerChoice() {
+            var playerChoice = prompt("Choose Rock, Paper or Scissors");
+            while(playerChoice != "rock" 
+            && playerChoice != "paper"
+            && playerChoice != "scissors") {
+                    alert("Please choose Rock, Paper or Scissors");
+                    var playerChoice = prompt("Choose Rock, Paper or Scissors");
+                }
+                return playerChoice
+        }
+
+        function playRound(playerSelection, compSelection){
+            // if playerSelection
+            if (compSelection === playerSelection){
+                console.log("You're Tied! Refresh to Play Again")
+            } else if (compSelection ==='rock' && playerSelection === 'paper') {
+                console.log("You Won! Refresh to Play Again")
+            } else if (compSelection === 'rock' && playerSelection === 'scissors') {
+                console.log("I won! Refresh to Play Again")
+            } else if (compSelection === 'paper' && playerSelection === 'scissors') {
+                console.log("You Won! Refresh to Play Again")
+            } else if (compSelection === 'paper' && playerSelection === 'rock') {
+                console.log("I Won! Refresh to Play Again")
+            } else if (compSelection === 'scissors' && playerSelection === 'paper') {
+                console.log("I Won! Refresh to Play Again")
+            } else if (compSelection === 'scissors' && playerSelection === 'rock') {
+                console.log("You Won! Refresh to Play Again")
+            } else {
+                console.log("Something went wrong " + " Player Selection: " + playerSelection + " Computer Selection: " + compSelection);
+            }
+            console.log("Player Selection: " + playerSelection + " Computer Selection: " + compSelection);
+        }
+        // computerPlay()
+        playRound(playerChoice(), computerChoice());
+    </script>
+</head>
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <p>As seen on <a href="https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors?ref=lnav"></a>The Odin Project</p>
+    
+</body>
+</html> 
