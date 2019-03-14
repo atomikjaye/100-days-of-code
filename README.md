@@ -1,4 +1,4 @@
-# I've joined the #100DaysOfCode Challenge
+# 100 Days Of Code - Log [Start date: March 12th 2019]
 
 ## Contents
 
@@ -7,33 +7,30 @@
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
 
-## Translations
-[বাংলা](intl/bn/README.md) - [català](intl/ca/README.md) - [中文](intl/ch/README.md) - [deutsch](intl/de/README.md) - [español](intl/es/README.md) – [français](intl/fr/FAQ-fr.md) – [italiano](intl/it/README.md) – [日本語](intl/ja/README.md) - [한국어](intl/ko/README-ko.md) – [norsk](intl/no/README.md) –  [polski](intl/pl/README.md) - [português do Brasil](intl/pt-br/LEIAME.md) - [русский](intl/ru/README-ru.md) – [українська](intl/ua/README-ua.md) - [ελληνικά](intl/el/README.md)
+---
 
-If you want to help by providing a translation of content/rules in the language you know, submit a pull request (or DM me on Twitter @ka11away), adding a sub-folder in the 'intl' folder with the files of the translation there.
+## Day 1: March 12, 2019
 
-## If you've decided to join:
+**Today's Progress**: Worked on a calculator app.
 
-0.  Check out [the Official Site](http://100daysofcode.com/) for the #100DaysOfCode movement. Connect with others on the platform of your choice from this list: www.100DaysOfCode.com/connect
-    Also, [here](https://join.slack.com/t/100xcode/shared_invite/enQtMzA2NzUyODY4MTgyLWM2NzMzYzBmZTcwOTk0MzM2YTI5OWQzM2M3ZTVjZTUyMTE0NDk3ZjdiZmExNGU5Mjg3ODgzZTQxODI3YTNjZjA) is a invite link to the 100DaysOfCode Slack channel
-1.  Read [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4)
-2.  Fork this repo and commit to the [Log](log.md) or to the Alternative, rapid [R1 Log](r1-log.md) (R1 stands for Round 1) daily. [Example](https://github.com/Kallaway/100-days-kallaway-log).
-3.  **Code minimum an hour every day for the next 100 days.**
-4.  **Encourage at least two other people in the challenge on Twitter every day! Pay it forward!**
-5.  Change the date in [Rules](rules.md) to the day you've started the challenge.
-6.  Delete the examples in the log, or comment them out, and start filling it with your own content.
-7.  **Tweet your progress every day using the #100DaysOfCode hashtag.**
-8.  Follow [100DaysOfCode](https://twitter.com/_100DaysOfCode) Twitter Bot that retweets the tweets that contain the #100DaysOfCode hashtag. It's a great way to keep yourself motivated and to participate in the community. Thanks [@amanhimself](https://twitter.com/amanhimself) for creating it!
-9.  Important: (see No.4 above for a specific rule on this) Encourage others who are doing the same challenge on Twitter or elsewhere - by giving them props when they are posting updates on their progress, supporting them when things get difficult. Thus we will grow a community that is helpful and effective, which will lead to a higher success rate for each person involved. It's also more likely that you will stick to your own commitment, given that you will get acquainted with a couple people (or more) right away.
-10.  If you find a great, helpful resource that others would benefit from, either submit a Pull Request to add it to the repo, or just tweet at me (see info below)
+**Feeling**: ⁉️ Confused
 
-## Want to change other habits?
+**Thoughts:** I really struggled with the logic on how this calculator should function. I gave it my best. I was able to change the display and save the input to a variable though!
 
-Check out [the #100DaysOfX Challenges Project](http://100daysofx.com/). Changing your habits you are changing your life. Remember that the best time to start is always NOW.
+**Link to work:** [Calculator](001-calculator/)
 
-I recommend that you commit to no more than 2-3 challenges at a time, ideally 2. If you are doing the #100DaysOfCode which involves a lot of mental activity, try the [#100DaysOfHealth](http://100daysofx.com/where-x-is/health/), or [#100DaysOfFitness](http://100daysofx.com/challenges/) challenges. There is so much more on the site, check all of them out and choose the ones you want to acquire! Languages, writing, meditation, journaling, cooking, and more!
+---
 
-## Note
+## Day 2: March 13, 2019
 
-* If you have any questions or ideas about 100DaysOfCode (or other ideas), feel free to reach out to me on Twitter: [@ka11away](https://twitter.com/ka11away)
-* If you like this repo and find it useful, please consider &#9733; starring it (on top right of the page) and forking it :)
+**Today's Progress**: Worked on a calculator app again, [codewars.com](http://codewars.com) and [freecodecamp.com](http://www.freecodecamp.com) problems.
+
+**Feeling**: ⁉️ Confused AGAIN
+
+**Thoughts:** I still wasn't able to get it, but I did go ahead and skim through an article and I would like to attempt it again tomorrow. Aside from working on the calculator, I did some work on codewars. I'm suprised at how little I know! I definitely struggled. The two problem sets I couldn't get were: [Regex validate PIN code](https://www.codewars.com/kata/55f8a9c06c018a0d6e000132) and [Your order, please](https://www.codewars.com/kata/your-order-please). I bookmarked them so I can come back to them. I also worked on some freecodecamp courses too. 
+
+**Link to work:** [insert link to github here]
+
+
+
+> 100 Days of Code originally by [@ka11away](https://twitter.com/ka11away)
