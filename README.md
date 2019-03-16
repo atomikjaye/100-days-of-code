@@ -17,7 +17,7 @@
 
 **Thoughts:** I really struggled with the logic on how this calculator should function. I gave it my best. I was able to change the display and save the input to a variable though!
 
-**Link to work:** [Calculator](001-calculator/)
+**Link to work:** [Calculator](Day1-2/001-calculator/)
 
 ---
 
@@ -38,7 +38,7 @@
 > 5. I am not stupid, just need to learn more.                                     
 > 6. I NEED GLASSES THAT DONT MAKE MY EYES HURT
 
-**Link to work:** [Calculator](001-calculator/)
+**Link to work:** [Calculator](Day1-2/001-calculator/)
 
 ---
 
@@ -55,7 +55,7 @@
 > 1. I tried using 'let' to declare a variable in the playRound function, but I realized that since 'let' had block scope I think it never got 'rewritten' when I redeclared it in the while loop, hence I was stuck in an infinite loop. That's my best guess, but I must look into that.
 > 2. LIBRARY WI-FI SUCKS
 
-**Link to work:** [Rock Paper Scissors (Console Only)](003-RockPaperScissors/) : [Codepen](https://codepen.io/atomikjaye/pen/MxGgob) **Pop-ups and it's console only)**
+**Link to work:** [Rock Paper Scissors (Console Only)](Day3/003-RockPaperScissors/) : [Codepen](https://codepen.io/atomikjaye/pen/MxGgob) **Pop-ups and it's console only)**
 
 ---
 
@@ -86,9 +86,9 @@
 * Start a DailyUI project
 * Do a CSS project
 
-**Link to work(s):** [Still Malfunctioning Calculator](004-calculator/) : [Codepen](https://codepen.io/atomikjaye/pen/pYVzPb) - will change often
+**Link to work(s):** [Still Malfunctioning Calculator](/Day4/004-calculator/) : [Codepen](https://codepen.io/atomikjaye/pen/pYVzPb) - will change often
 
- [JS30 - JS DrumKit](004-js30-drumKit)
+ [JS30 - JS DrumKit](Day4/004-js30-drumKit)
 
 ---
 
