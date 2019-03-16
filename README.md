@@ -55,7 +55,40 @@
 > 1. I tried using 'let' to declare a variable in the playRound function, but I realized that since 'let' had block scope I think it never got 'rewritten' when I redeclared it in the while loop, hence I was stuck in an infinite loop. That's my best guess, but I must look into that.
 > 2. LIBRARY WI-FI SUCKS
 
-**Link to work:** [Rock Paper Scissors (Console Only)](003-RockPaperScissors/)
+**Link to work:** [Rock Paper Scissors (Console Only)](003-RockPaperScissors/) : [Codepen](https://codepen.io/atomikjaye/pen/MxGgob) **Pop-ups and it's console only)**
+
+---
+
+## Day 4: March 15, 2019
+
+**Today's Progress**: FreeCode Camp Exercises & JS30 Drum Kit
+
+**Feeling**: 😬😬😬😬😬😬😬😬😬😬
+
+**Thoughts**: I spent most of the day trying to figure out what I should be learning/coding and not actually doing anything. I ended with a plan to work on freecodecamp until I can't, then do a project (hopefully) tied to what I learned (or just do a JS30 project for now). I hope this plan works🙃. I also think I overwrote my calculator project from yesterday, I did my best to restore it... not that there was much to restore 😂. I was super happy I had my JS30 Drum Kit functional before going 100% into the tutorial. I AM PROUD! 😢 <~~ Happy tear. I wonder why 'happy tear' isn't an emoji yet...
+
+**Worked On**:
+
+* Calculator (this is going to be the death of me)
+* FreeCodeCamp Basic Javascript Problems
+* Javascript 30 JS Drum Kit
+* Started to watched video about CSS-grids!
+
+**Things I've learned/need to research**:
+
+> 1. If you want your border-radius to apply to all nested elements, make sure you have "overflow: hidden;" in the parent element... DUH! (regarding calculator)
+> 2. I learned of the "Data-key" attribute
+> 3. I definitely think too much.
+
+**Next Steps**:
+
+* Even though I got the Drum Kit to work, I need to actually follow the tutorial to get it running smoothly. I want to also add css animations that are equivalent to the name of the sound! Also, I need to finish this calculator!!!!
+* Start a DailyUI project
+* Do a CSS project
+
+**Link to work(s):** [Still Malfunctioning Calculator](004-calculator/) : [Codepen](https://codepen.io/atomikjaye/pen/pYVzPb) - will change often
+
+ [JS30 - JS DrumKit](004-js30-drumKit)
 
 ---
 
