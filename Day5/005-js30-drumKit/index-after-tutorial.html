@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit - Before Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="keys">
+    <div data-key="65" data-animation="flash" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" data-animation="wobble" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" data-animation="bounce" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" data-animation="tada" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" data-animation="bounceIn" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" data-animation="lightSpeedIn" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" data-animation="bounceInUp" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" data-animation="swing" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" data-animation="rubberBand" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+
+<script>
+// Listen for pressed key's key code
+// find element associated with that key code
+  // Add class
+// Play sound associated with keyCode
+
+  // window.addEventListener('keydown', function(e){
+  //   var keyDiv = document.querySelector("div[data-key='" + e.keyCode + "']");
+  //   keyDiv.classList.add("playing");
+  //   var keyAudio = document.querySelector("audio[data-key='" + e.keyCode + "']");
+  //   keyAudio.play();
+  //   console.log(e.keyCode);
+  //   console.log(keyDiv);
+  // });
+
+  // window.addEventListener('keyup', function(e){
+  //   var keyDiv = document.querySelector("div[data-key='" + e.keyCode + "']");
+  //   keyDiv.classList.remove("playing");
+  // })
+
+
+function playSound(e) {
+  // Find the audio element that is assiciated with button pressed
+  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+  const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+  const animation = document.querySelector(`.key[data-key="${e.keyCode}"]`).getAttribute("data-animation");
+
+  if(!audio) return; // If there is no audio, function does not execute
+  if(!animation) return; // If there is no audio, function does not execute
+
+  // console.log(key);
+  // console.log(animation);
+  audio.currentTime = 0; // This rewinds audio to the beginning so when you click key multiple times it doesn't wait until finished
+  audio.play();
+  key.classList.add('playing', 'animated', animation);
+}
+
+// function addAnimation(){
+
+// }
+
+function removeTransition(e){
+  if(e.propertyName !== 'transform') return; // Don't use function unless tranform is in the property name
+  this.classList.remove('playing', 'animated');
+}
+
+function removeAnimation(e) {
+  if(e.type !== 'animationend') return;
+  console.log(e);
+  console.log('Removed:', 'animated')
+  this.classList.remove('playing', 'animated', e.animationName);
+}
+const keys = document.querySelectorAll(".key");
+keys.forEach(key => key.addEventListener('transitionend', removeTransition)); // You HAVE to loop over each key, not the whole array. Adding this to remove transitioned element after pressing key down
+keys.forEach(key => key.addEventListener('animationend', removeAnimation)); // You HAVE to loop over each key, not the whole array. Adding this to remove transitioned element after pressing key down
+console.log(keys)
+window.addEventListener('keydown', playSound);
+</script>
+
+
+</body>
+</html>

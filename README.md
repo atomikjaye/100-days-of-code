@@ -92,4 +92,40 @@
 
 ---
 
+## Day 5: March 16, 2019
+
+**Today's Progress**: FreeCodeCamp (Basic Javascript)
+
+**Feeling**: 💪🏾💪🏾😅😢✨
+
+**Thoughts**: I DID THE THING! I finished the Basic Javascript course... well sorta, I skipped over parts I knew. I felt the need to review Basic Javascript because I felt some problems on codewars.com really stumped me. So I assumed it was because of my rusty Javascript skills, and by rusty I mean I totes forgot all I learned 2 years ago 😅.
+
+--- a few hours later *spongebob narrarator voice* ---
+
+I spent all day learning and coding. Unfortunately I feel like I got NOWHERE today, as I thought I would finish the multiple projects I wrote down (like Daily UI, Javascript30 (second project) etc.).. but I didn't. I'm a bit bummed because I feel like this means I didn't progress. However, looking back at what I have done, I learned some new things... no matter how small... and that is still progress!
+
+**Worked On**:
+
+* Finishing FreeCodeCamp [Basic Javascript]
+* Javascript 30 Drum Kit Again (adding [animate.css](https://daneden.github.io/animate.css/) animations to the buttons)
+
+**Things I've learned/need to research**:
+
+> 1. Arrays are actually pretty awesome. Idk why I thought they were terrible.
+> 2. I learned about .git/info/exclude.
+> 3. Selectors will be the main cause of all my problems. Took me about 2 hrs figuring out which selector I needed. Thanks to a viewer a few streams ago, I was able to locate which ones I needed through Google Chrome's Dev Tools.
+> 4. I can make my own "data-x" thingies and select those. That's what I am using for these animations!
+
+**Next Steps**:
+
+* FINISH CALCULATOR
+* Start a DailyUI project
+* Do a CSS project
+
+**Link to work(s):**
+
+* [JS30 - DrumKit (with animations)](/Day5/005-js30-drumKit) : [Codepen](https://codepen.io/atomikjaye/pen/JzvvyG)
+
+---
+
 > 100 Days of Code originally by [@ka11away](https://twitter.com/ka11away)
