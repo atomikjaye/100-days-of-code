@@ -128,4 +128,36 @@ I spent all day learning and coding. Unfortunately I feel like I got NOWHERE tod
 
 ---
 
+## Day 6: March 17, 2019
+
+**Today's Progress**: JS30 Clock & Some reading
+
+**Feeling**: 🙂
+
+**Thoughts**: I went out today, it was a much needed break. I totally feel like I cheated and only did about 30-45ish mins out of the 60mins req. BUT I DID A THING OKAY! I followed along with the JS30 tutorial, but I paused in a few areas to make sure I was on the right track. I think I did okay. However, because I didn't know some functions existed like "getMinutes()" or "getHours()" I was going to do entirely too much math. In a way I felt better because I know it's not necessarily an "I suck at logic" thing, but a "I don't know what I don't know" thing. 🙌🏾 I am also reading an actual book  🎉🎉💃🏾💃🏾🎉🎉💃🏾💃🏾 . Judge me if you wish lol, but I don't read books much, I usually read news articles etc, but not books. It's always made me feel bad for some reason. BUT I AM READING OKAY GUYS! Maybe I will get better at english lol. The book I am reading is called [Confident Coding: Master the Fundamentals of Code and Supercharge Your Career By Rob Percival](https://amzn.to/2FeGM4b) *affiliate link. 
+
+**Worked On**:
+
+* JS30 Clock
+* Reading stuffs
+
+**Things I've learned/need to research**:
+
+> 1. Transform-Origin: css property
+> 2. TRANSITION-TIMING-FUNCTION CUBIC-BEZIER !!!! OMG !!!! 🧠💣
+> 3. I need to brush up on some math skills
+
+**Next Steps**:
+
+* Have nightmares about this unfinished JS Calculator.
+* I'll figure it out on monday.. on a brain break 😅
+
+
+**Link to work(s):**
+
+* [JS30 Clock](/Day6/)
+
+---
+
+
 > 100 Days of Code originally by [@ka11away](https://twitter.com/ka11away)
