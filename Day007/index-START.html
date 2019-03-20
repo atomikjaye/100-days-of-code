@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scoped CSS Variables and JS</title>
+</head>
+<body>
+  <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+
+  <div class="controls">
+    <label for="spacing">Spacing:</label>
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="blur">Blur:</label>
+    <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="base">Base Color</label>
+    <input id="base" type="color" name="base" value="#ffc600">
+  </div>
+
+  <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+
+  <style>
+
+    :root {
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
+
+  img {
+    background-color: var(--base);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+  }
+
+  .hl {
+    color: var(--base);
+  }
+    /*
+      misc styles, nothing to do with CSS variables
+    */
+
+
+
+    body {
+      text-align: center;
+      background: #193549;
+      color: white;
+      font-family: 'helvetica neue', sans-serif;
+      font-weight: 100;
+      font-size: 50px;
+    }
+
+    .controls {
+      margin-bottom: 50px;
+    }
+
+    input {
+      width: 100px;
+    }
+  </style>
+
+<!-- <div class="controls">
+    <label for="spacing">Spacing:</label>
+    <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="blur">Blur:</label>
+    <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="base">Base Color</label>
+    <input id="base" type="color" name="base" value="#ffc600">
+  </div> -->
+
+<!-- BEFORE TUTORIAL AND BEFORE REFACTORING -->
+  <!-- <script>
+    let root = document.documentElement;
+    let spacing = document.getElementById('spacing');
+    let blur = document.getElementById('blur');
+    let base = document.getElementById('base');
+
+    spacing.addEventListener('input', function(val){
+      val = val.srcElement.value;
+      root.style.setProperty('--spacing', val + 'px');
+    });
+
+    blur.addEventListener('input', function(val){
+      val = val.srcElement.value;
+      root.style.setProperty('--blur', val + 'px');
+      console.log(val);
+      console.log(blur);
+    });
+
+    base.addEventListener('input', function(val){
+      val = val.srcElement.value;
+      root.style.setProperty('--base', val);
+    });
+  </script> -->
+
+<!-- BEFORE TUTORIAL AND AFTER REFACTORING -->
+  <!-- <script>
+
+    //Select all inputs, loop through them
+    let root = document.documentElement;
+    let inputs = document.querySelectorAll('input');
+// Help from https://medium.com/@_bengarrison/accessing-and-modifying-css-variables-with-javascript-2ccb735bbff0
+    inputs.forEach(function(input){
+      input.addEventListener('input', setValue);
+    });
+
+    function setValue(val) {
+      id = val.srcElement.id;
+      val = val.srcElement.value;
+      console.log(id);
+      // Trying (ternary) help from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+      (id === "spacing") ? root.style.setProperty('--spacing', val + 'px')
+         : (id === "blur")  ? root.style.setProperty('--blur', val + 'px')
+         : (id === "base") ? root.style.setProperty('--base', val)
+         : console.log("Input not included");
+    }
+  </script> -->
+
+<script>
+  //  TUTORIAL CODE
+    // Returns Node list, could potentially convert to an Array
+    const inputs = document.querySelectorAll('.controls input');
+
+    function handleUpdate() {
+      // You can set default values like this!! :O
+      const suffix = this.dataset.sizing || '';
+      document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix)
+    }
+    // Check movement from mouse inside of element and the change.
+    inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+
+</script>
+  
+</body>
+</html>
