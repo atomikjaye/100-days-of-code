@@ -144,7 +144,7 @@ I spent all day learning and coding. Unfortunately I feel like I got NOWHERE tod
 **Things I've learned/need to research**:
 
 > 1. Transform-Origin: css property
-> 2. TRANSITION-TIMING-FUNCTION CUBIC-BEZIER !!!! OMG !!!! 🧠💣
+> 2. TRANSITION-TIMING-FUNCTION CUBIC-BEZIER !!!! OMG !!!! ~~🧠💣~~ I just realized this emoji exists 🤯
 > 3. I need to brush up on some math skills
 
 **Next Steps**:
@@ -216,6 +216,75 @@ I spent all day learning and coding. Unfortunately I feel like I got NOWHERE tod
 **Link to work(s):**
 
 -   [JS Calculator](/Day008/) - [Codepen](https://codepen.io/atomikjaye/pen/pYVzPb) - will change often
+
+---
+
+## Day 9: March 20, 2019
+
+**Today's Progress**: Learned some more RegEx features.
+
+**Feeling**: 🙂💪🏾😶😩😡🤯😵 (Explains the whole day, in that order)
+
+**Thoughts**: I spent the whole day learning RegEx... and I HATE IT. WHYYY?!??!! lol. Idk if it's FCC's interface, but I may try another source to learn in realtime.
+I was so stressed I actually wanted to go to the gym afterwards... and I did. I'm broken! lol
+
+**Worked On**:
+
+-   FreeCodeCamp RegEx Lesson
+
+**Things I've learned/need to research**:
+
+> 1.  RegEx:
+>
+>     **.test()** gives T/F, **.match()** gives back matched regEx (returns an array if more than one match).
+>
+>     RegEx by default are greedy, meaning they return the largest substring to match... example given regex = "/t[a-z]\*i/" and text = "titanic, it would return "titani" and not "ti".
+>
+>     Stumped at why "/(?=\w{5,})(?=**\D\***\d{2})/" works and "/(?=\w{5,})(?=**\d**{2})/" doesn't for [FCC: Lookahead Lesson](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions/positive-and-negative-lookahead) **Actually, learned in a Discord that each Lookahead is run on the string indiviually, hence why \D needs to account for the characters before the numbers.**
+>
+>     Using capture groups (), the "\#" is related to the actual order of the groups for example /(\d+)(\s)(\w)\1\2\3/ \1 = (\d+) \2 = (\s) etc. THIS TOOK ME A WHILE cause I obviously can't read...
+
+---
+
+| Regex name              | Symbol                            | What it Do homie?                                                         | Example                                                                                   |
+| ----------------------- | :-------------------------------- | :------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------- |
+| Global Flag             | /g                                | Finds all matches                                                         | /a/g                                                                                      |
+| Ignore Case Flag        | /i                                | dOeS nOT Care about CASE                                                  | /a/i                                                                                      |
+| Wildcard                | /./                               | Matches any one character after string                                    | /hu./ matches hug, huh, hum etc                                                           |
+| Character classes       | /[ ]/                             | Defines set of characters to look for                                     | /b[aiu]g/ matches bag, big, bug                                                           |
+| Range of characters     | /[-]/                             | Matches a range                                                           | /[a-e]/ matches a,b,c,d,e                                                                 |
+| Negated character set   | /[^]/                             | Avoids letters after the caret                                            | /[a^eiou]/ matches anything not eiou                                                      |
+| Once or more/plus       | /+/                               | Character(s) appear once or many in a row                                 | /a+/g matches aaaa, aa, a                                                                 |
+| Zero or more/asterisk   | /\*/                              | Character(s) appear zero or many in a row                                 | /go\*/ matches gooooooal, and gut                                                         |
+| Search begining/caret   | /^/                               | Check if query is first in given string (make sure ^ is out of [])        | given /^Cal/ & "Cal is Great" Returns T "this is Cal" returns F                           |
+| Search ending in/dollar | /\$/                              | Matches if last in string                                                 | given /Fries\$/ & "Fries are good" returns F "I'm delicious - Fries" returns T            |
+| Quantity Specifiers     | {lower,upper}, {lower,∞}, {exact} | Matches strings between the numbers declared                              | given /a{3,5}h/ aaah, aaaah, aaaaah return true, "aah" returns false. Can leave #'s blank |
+| Lazy Matching/question  | /?/                               | Lazily matches regex                                                      | given "titanic" and /t[a-z]\*?i/ will return "ti" and not "titani                         |
+| Possible Existence      | /x?/                              | Checks for zero or one of the preceding element                           | given "colou?r"; "color" and "colour" are true                                            |
+| Positive Lookaheads     | (?=...)                           | Make sure the element in the search pattern is there, but not match       | given "qu"; "/q(?=u)/" will be True would return "q"                                      |
+| Negative Lookaheads     | (?!...)                           | Make sure the element in the search pattern is not there, but not match   | given "qu"; "/q(?!=u)/" will be False would return "q"                                    |
+| Capture Groups          | (xxxx)                            | Kinda like variables,holds patterns, then refer to them by "\#" # in list | LUL still trying to fully digest                                                          |
+
+---
+
+| Shorthand Character Class name          | Symbol | What it Do homie? | Example                         |
+| --------------------------------------- | :----: | :---------------- | :------------------------------ |
+| Upper Lower Alpha, numbers and "\_"     |  /\w/  | [A-Za-z0-9_]      | Self Explanatory                |
+| NON Upper Lower Alpha, numbers and "\_" |  /\W/  | [^a-za-z0-9_]     | Self Explanatory                |
+| Just Digits                             |  /\d/  | [0-9]             | GIVE ME DEM DIGITS... please :) |
+| No Digits                               |  /\D/  | [^0-9]            | I don't want dem digits!        |
+
+---
+
+> 2. If I want a good weight loss motivation.. learn more RegEx.
+
+**Next Steps**:
+
+-   🤷🏾‍
+
+**Link to work(s):**
+
+-   Nada
 
 ---
 
