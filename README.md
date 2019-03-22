@@ -288,4 +288,33 @@ I was so stressed I actually wanted to go to the gym afterwards... and I did. I'
 
 ---
 
+## Day 10: March 21, 2019
+
+**Today's Progress**: JS30 Array Cardio and CSS on Atomik Sub Wall
+
+**Feeling**: 💪🏾
+
+**Thoughts**: I was killing the first few array problems, but got stuck on the last two. I got frustrated, but instead of staring at the screen, I decided to do something else involving css! While watching how to make pure CSS images, I got really inspired to make my SubWall App prettier... and so I did sorta, still work to do. I ALSO SUCCESSFULLY INSTALLED SASS!
+
+**Worked On**:
+
+-   Array Cardio
+- Atomik Subwall
+
+**Things I've learned/need to research**:
+
+> 1. [.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort). **RESEARCH: What is UTF-16?**
+> 2. [.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+> 3. You can declare [inline CSS](https://codepen.io/BPScott/pen/gRLXKJ) variables AND you can use those variables in CSS 😲😲
+
+**Next Steps**:
+-   Keep working on Sub Wall
+
+**Link to work(s):**
+
+-   [Array Cardio (JS30 4)](/Day010/)
+- AtomikSubwall - link soon
+
+---
+
 > 100 Days of Code originally by [@ka11away](https://twitter.com/ka11away)
