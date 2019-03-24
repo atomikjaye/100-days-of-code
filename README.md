@@ -55,6 +55,7 @@ I think the amount of time I spend day-to-day will make up for my lack today lol
 
 > 1. console.table() IS AN ACTUAL THING?!?!? WHAT????!!!! Where has this been in my short dev life?!
 > 2. Learned about array.some() and array.every()! Pretty cool stuff.
+> 3. Tried to make a markdown snippet, but realised it wasn't working.. Apparently you need to Ctrl + Space for it to show up... intertesting [issue #1617](https://github.com/Microsoft/vscode/issues/1617). I also used part of this tutorial [Make Snippets](https://scotch.io/bar-talk/write-less-code-by-creating-snippets-in-visual-studio-code)
 
 **Next Steps**:
 -  Spend more time tomorrow working on code.
@@ -64,6 +65,8 @@ I think the amount of time I spend day-to-day will make up for my lack today lol
 **Link to work(s):**
 
 - [JS30 Array Cardio 2](/Day012/)
+
+
 
 ---
 
