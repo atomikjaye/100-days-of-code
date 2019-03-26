@@ -66,7 +66,46 @@ I think the amount of time I spend day-to-day will make up for my lack today lol
 
 - [JS30 Array Cardio 2](/Day012/)
 
+---
 
+
+## Day 13 : March 24, 2019
+
+**Today's Progress**: ABSOLUTELY NOTHING
+
+**Feeling**: 😞😞🙍🏾‍♀️😥
+
+**Thoughts**: I didn't feel like coding all day, plus we were out half the day. I DID watch a JS30 code video though! That has to count for something.
+
+**Worked On**: 
+- JS30 Canvas (sorta)
+- JS30 Console.logs
+
+**Things I've learned/need to research**:
+> 1. I learened some cool console.log things. It was cool learning all that stuff
+
+---
+
+## Day 14 : March 25, 2019
+
+**Today's Progress**: JS30 Canvas
+
+**Feeling**: 😓☹😡☹😕😵✨😅😎
+
+**Thoughts**: I really didn't feel like coding all yesterday and today tbh. I did manage to fit a JS30 tutorial in, but I know I could have worked harder. I WAS SUPER AMAZED at the canvas tutorial tough. It's magic! ✨ :O
+
+**Worked On**: 
+- JS30 Canvas!
+- Dev breakfast (?? IDK what will come of this)
+
+**Things I've learned/need to research**:
+> 1. globalCompositeOperation [globalCompositeOperation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation)
+ 
+**Next Steps**: 
+- DO MORE WORK
+
+**Link to works(s)**
+- [Day14](/Day014) - [CodePen](https://codepen.io/atomikjaye/pen/WmWoxe)
 
 ---
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+</head>
+<body>
+<canvas id="draw" width="800" height="800"></canvas>
+<script>
+  const canvas = document.getElementById('draw');
+  console.log(canvas)
+  // Draw on Context, not canvas
+  const ctx = canvas.getContext('2d');
+  
+  // Resize canvas to window (//Q: why are we not doing this already?) 
+  canvas.height = window.innerHeight;
+  canvas.width = window.innerWidth;
+
+  ctx.strokeStyle = '#BADA55'
+  ctx.lineJoin = 'round';
+  ctx.lineCap = 'round';
+  ctx.lineWidth = 100;
+  ctx.globalCompositeOperation = 'overlay'
+
+  let isDrawing = false;
+  let lastX = 0;
+  let lastY = 0;
+  let hue = 0;
+  let direction = true;
+
+  function canvasDraw(e){
+    if(!isDrawing) return // Stop the fn from running when not mouse down
+    // console.log(e);
+
+    ctx.strokeStyle = `hsl(${hue}, 100%, 80%)`;
+
+    ctx.beginPath();
+
+    //Start from
+    ctx.moveTo(lastX, lastY);
+    // Go to
+    ctx.lineTo(e.offsetX, e.offsetY);
+    ctx.stroke();
+    [lastX, lastY] = [e.offsetX, e.offsetY]
+    // lastX = e.offsetX;
+    // lastY = e.offsetY;
+    hue++;
+    if (hue >= 360){
+      hue = 0;
+    }
+    
+    if(ctx.lineWidth >= 100 || ctx.lineWidth <= 1){
+      direction = !direction
+    }
+if(direction){
+  ctx.lineWidth++;
+  console.log(ctx.lineWidth)
+} else {
+  ctx.lineWidth--;
+  console.log(ctx.lineWidth)
+}
+  }
+  
+  canvas.addEventListener('mousedown', (e) => {
+    isDrawing = true;
+    [lastX, lastY] = [e.offsetX, e.offsetY]
+  });
+  canvas.addEventListener('mousemove', canvasDraw);
+  canvas.addEventListener('mouseup', () => isDrawing = false);
+  canvas.addEventListener('mouseout', () => isDrawing = false);
+</script>
+
+<style>
+  html, body {
+    margin: 0;
+  }
+</style>
+
+</body>
+</html>
