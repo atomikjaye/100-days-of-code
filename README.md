@@ -3,7 +3,7 @@
 ## Contents
 
 -   [Rules](rules.md)
--   Progress: [Day 1-10](Day1-10.md)
+-   Progress: [Day 1-10](/Days1-10.md)
 -   [FAQ](FAQ.md)
 -   [Resources](resources.md)
 
